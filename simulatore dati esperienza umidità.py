@@ -6,7 +6,7 @@ indice_della_lista = 0
 #viariabili globali
 offset_max = 7
 offset_min = 3
-numero_di_pacchetti_simulati = 10000
+numero_di_pacchetti_simulati = 1000000
 space = 8
 start_index = 2
 end_index = 6
@@ -49,6 +49,6 @@ for i in range(numero_di_pacchetti_simulati):
 
 #######################################################################################################################################################################################
 
-for s in range(10000000):
+for s in range(1000):
 
     print(simulatore(),'\n')
